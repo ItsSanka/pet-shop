@@ -1,0 +1,32 @@
+.hero-section{
+    background: url(../Assets/Herro-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+  font-family: "Questrial", sans-serif;
+
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #002A48;
+}
+
+.hero h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #002A48;
+}
+
+.hero p{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #242B33;
+width: 60%;
+}
+
+

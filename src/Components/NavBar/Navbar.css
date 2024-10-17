@@ -1,0 +1,38 @@
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav a {
+  font-family: "Questrial", sans-serif;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.dropdown button{
+    display: flex;
+    background-color: transparent !important;
+    border: none;
+    color: #003459;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown button:hover{
+    color: black;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    color: black;
+}
+
+hr{
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 100%;
+}
