@@ -3,16 +3,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Dropdown from "react-bootstrap/Dropdown";
 import "./Navbar.css";
-import logo from "../Assets/logo.png";
-import star from "../Assets/star.png";
+import { assets } from "../Assets/images";
 
 function NavBar() {
   const [menu, setMenu] = useState("home");
   return (
     <>
-      <div className="navigation justify-between w-full py-4">
+      <div className="navigation flex items-center justify-between w-full py-4">
         <div className="nav-logo">
-          <img src={logo} alt="logo" />
+          <img src={assets.logo} alt="logo" />
         </div>
         <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -76,7 +75,7 @@ function NavBar() {
 
         <div>
           <Dropdown>
-            <Dropdown.Toggle id="dropdown-basic"><img src={star} alt="" />VND</Dropdown.Toggle>
+            <Dropdown.Toggle id="dropdown-basic" className="flex bg-transparent border-none text-blue-950 items-center gap-2 hover:text-black"><img src={assets.star} alt="star" />VND</Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Dropdown.Item href="#/action-1">VND</Dropdown.Item>
