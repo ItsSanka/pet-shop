@@ -14,7 +14,7 @@ function Category() {
         <Banner></Banner>
       </div>
       <div className="container py-5">
-        <h1 className="text-4xl font-bold mb-3">Contact</h1>
+        <h1 className="text-4xl font-bold mb-3">Category</h1>
         <Pet></Pet>
       </div>
       <section className="footer bg-gradient-to-r from-orange-100 to-orange-200 rounded-t-3xl pt-4">
